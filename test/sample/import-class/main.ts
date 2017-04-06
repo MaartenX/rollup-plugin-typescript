@@ -1,3 +1,5 @@
-import A from './A';
+import { B } from './A';
+import * as ts from "typescript/lib/typescript";
+//new A();
 
-new A();
+console.log(B.B1);

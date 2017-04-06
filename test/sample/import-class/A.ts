@@ -1,9 +1,4 @@
-class A {
-  getArgs: () => any[];
 
-  constructor(...args: any[]) {
-    this.getArgs = () => args;
-  }
-}
+import { B } from './B'
 
-export default A;
+export { B }
